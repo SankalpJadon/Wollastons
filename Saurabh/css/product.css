@@ -1,0 +1,76 @@
+#band1{
+	background-color: #ff751a; 
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+#content-band1{
+	margin-left: 150px;
+	margin-top: 0px;
+}
+
+#content-band1 p{
+	color: #ffffff;
+}
+
+#content-band1 #heading{
+	color: #ffd1b3;
+	font-size: 40px;
+	font-style: normal;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#band2 #heading2{
+	color: #ff751a;
+	font-size: 40px;
+	font-style: normal;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.band2-box .heading-band2-box{
+	color: #ff751a;
+	font-size: 28px;
+	font-style: normal;
+	font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+#band3{
+	color: #ff751a;
+	font-size: 18px;
+	font-style: normal;
+	font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+
+::-webkit-input-placeholder {
+    color: #ff751a;
+    padding-left: 10px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #ff751a;  
+    padding-left: 10px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #ff751a; 
+    padding-left: 10px; 
+}
+
+:-ms-input-placeholder {  
+    color: #ff751a;  
+    padding-left: 10px;
+}
+
+input{
+    border: 1px solid #ff751a;
+}
+
+.glyphicon {
+    font-size: 2.2em;
+    font-weight: normal;
+    top: 10px;
+
+}
+i{
+	vertical-align: middle;
+}
+

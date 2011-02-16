@@ -1,0 +1,86 @@
+.showcase-gallery1{
+	float: left;
+	width: 25%;
+	height: 190;
+	padding: 15px;
+	cursor:pointer;
+	display: none;
+	overflow:hidden;
+}
+
+.pic { 
+  float: left;
+  height: 220px;
+  /*width: 22.25%;*/width: 100%;
+ /* margin: 15px;*/
+  overflow: hidden;
+  
+ /* -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  */
+}
+
+.showcase-gallery1 img{
+	box-shadow: 5px 5px 5px #111;
+	-webkit-box-shadow: 5px 5px 5px #111;
+}
+
+.showcase-gallery1>p{
+	display: none;
+}
+
+.showcase-gallery1>.gallery-content{
+	display: none;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*GROW*/
+.grow img {
+  width: 100%;
+  height: 100%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 133%;
+  height: 133%;
+}
+
+.muffin-content{
+	clear: left;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding-right: 15px;
+}
+
+.muffin-content strong{
+	float: left;
+}
+.muffin-content span{
+	float: right;
+}
+
+.muffinimage{
+	float: left;
+	height: 270px;
+	width: 22.25%;
+	margin: 15px;
+}
+
+.muffinimage:hover{
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111;
+}
