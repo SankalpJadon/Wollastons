@@ -1,0 +1,289 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script';
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans';
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    background-image: url('../img/backg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin:0 48px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        top:50px;
+        right:350px;
+
+        margin: 0;
+        padding: 5px 0 5px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: 'Droid Sans', sans-serif;
+        font-family: 'Droid Sans', sans-serif;        
+        font-size: 6em;
+        font-weight: 400;
+        line-height: normal;
+        color: #FF2929;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 15px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #FF2929;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+        padding:0;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+.dropbtn {
+    background-color: none;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #696969;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99999;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #3e8e41;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.col-lg-4 img{
+width:200px;
+height:200px;
+border-radius: 25px;
+border-style: solid;
+padding:0px;
+border:1px solid #021a40;
+box-shadow: 5px 5px 1px #888;
+}
+
+
+.col-sm-4{
+overflow: hidden;
+}
+
+.col-sm-4 img{
+width:200px;
+height:200px;
+border-radius: 25px;
+border-style: solid;
+padding:1px;
+border:1px solid #021a40;
+box-shadow: 5px 5px 1px #888;
+transform: translate3d(0px, 25px, 0px);
+transition: transform .3s ease-in-out;
+position: relative;
+}
+
+.col-sm-4 a{
+text-decoration:none;
+}
+
+.col-sm-4 img:hover {
+    transform: translate3d(0px, -10px, 0px);
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url(search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}

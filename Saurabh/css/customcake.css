@@ -1,0 +1,77 @@
+.frame-angular{
+	margin-left:75px;
+	margin-right: 75px;
+	padding-top: 30px;
+	background-color: white;
+	background: rgba(255,255,255,0);
+	
+}
+
+.frame-angular .heading-frame{
+	font-family:"book antiqua","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 23px;
+}
+
+.image-div{
+	margin: 20px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	font-size:25px;
+	font-family:"book antiqua","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+.grow1 img {
+  height: 280px;
+  width: 280px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+mark{
+	color: red;
+}
+
+.selections{
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.selections-final{
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+table{
+	margin: auto;
+}
+td{
+	padding: 20px;
+}

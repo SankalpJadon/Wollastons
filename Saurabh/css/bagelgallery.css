@@ -1,0 +1,76 @@
+.showcase-gallery1{
+	float: left;
+	width: 25%;
+	height: 190;
+	padding: 15px;
+	cursor:pointer;
+	display: none;
+	overflow:hidden;
+}
+
+.showcase-gallery1 img{
+	box-shadow: 5px 5px 5px #111;
+	-webkit-box-shadow: 5px 5px 5px #111;
+}
+
+.showcase-gallery1>p{
+	display: none;
+}
+
+.showcase-gallery1>.gallery-content{
+	display: none;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.pic {
+  border: 10px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+/*
+.img2 img {
+	height: 300px;
+	width: 100%;
+
+	-webkit-transition: all 1s ease;
+	 -moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.img2 img:hover {
+  width: 400px;
+  height: 400px;
+}
+*/

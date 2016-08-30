@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wollaston's Bakery Product</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+	<link href="css/product.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!--Awsome Fonts-->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<style>
+	.nav>li>a {
+		padding: 10px;
+    }
+	.brand, .address-bar{
+		color: #808080;
+	}
+	#band2{
+		background-image: url("img/bg-band2.jpg");
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.band2-box{
+		width: 33%;
+		display: inline-block;
+		text-align: center;
+		margin-top: 20px;
+		padding: 20px;
+	}
+	.heading-band2-box{
+		
+	}
+	#band3{
+		background-image: url("img/bg-band2.jpg");
+		padding: 40px 0px 60px 140px;
+	}
+	
+	.fadeInBlock {
+		opacity:0;
+	}
+	</style>
+	<script>
+		$(function() {
+			$(window).scroll( function(){
+				$('.fadeInBlock').each( function(i){
+					var bottom_of_object = $(this).position().top + $(this).outerHeight();
+					var bottom_of_window = $(window).scrollTop() + $(window).height();            
+					/* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+					bottom_of_window = bottom_of_window + 100;
+					if( bottom_of_window > bottom_of_object ){
+						$(this).animate({'opacity':'1'},800);
+					}
+				}); 
+			});
+		});
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+         });
+	</script>
+</head>
+
+<body>
+<!--	http://www.picfresh.com.au/products/
+    <div class="brand">Wollaston's Bakery</div>
+    <div class="address-bar">"Your neighbourhood grocer" </div>
+-->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="brand">Wollaston's Bakery</div>
+			<div class="address-bar">"Your neighbourhood grocer" </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Wollaston's Bakery</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../Sankalp/about.php">About Us</a>
+                    </li>
+                    <li>
+	<a class="dropdown-toggle active" data-toggle="dropdown" href="groceries.html">Bakery <span class="glyphicon glyphicon-chevron-down" style="font-size: 20px;"></a>
+						<ul class="dropdown-menu">
+							<li><a href="product.html"><h4>Product</h4></a></li>
+							<li><a href="Customcake.html"><h4>Customized Cakes</h4></a></li>
+							<li><a href="catering.html"><h4>Catering</h4></a></li>
+							<li><a href="gallery2.html"><h4>Gallery</h4></a></li>
+							<li><a href="peopleschoice.html"><h4>Peoples Choice</h4></a></li>
+							<li><a href="#affiliations"><h4>Affiliations</h4></a></li>
+						</ul>
+					</li>
+					<li>
+                        <a href="../Sankalp/deli.php">Deli</a>
+                    </li>
+					<li>
+                        <a href="../Bryce/grocery.html">Groceries</a>
+                    </li>
+                    <li>
+                        <a href="../Bryce/contact.php">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<img src="img/choccake.jpg" width="100%" style="margin-top: 0px;">
+	
+	<div id="band1" class="fadeInBlock">
+		<div id="content-band1">
+			<p id="heading">Products</p>
+			<p>We produce daily a wide range of fresh, healthy and delicious sandwiches, wraps, salads, paninis, platters, lunch boxes and rolls while working closely with our customers to deliver solutions to meet their needs – both in terms of quality and value. We strive to be environmentally friendly throughout our operations and ensure our packaging is environmentally friendly and recyclable, where possible.</p>
+		</div>
+	</div>
+	<img class="fadeInBlock" src="img/choccake1.jpg" width="100%" style="margin-top: 0px;">
+	<div id="band2" class="fadeInBlock">
+		<p id="heading2" align="center">Think New</p>
+		<p align="center">We produce daily a wide range of fresh, healthy and delicious sandwiches, wraps, salads, paninis, platters, lunch boxes and rolls while working closely with our customers to deliver solutions to meet their needs – both in terms of quality and value. We strive to be environmentally friendly throughout our operations and ensure our packaging is environmentally friendly and recyclable, where possible.</p>
+		
+		<div class="band2-box">
+			<p class="heading-band2-box">Think Local</p>
+			<p>We think local and support our local businesses by buying the freshest seasonal produce available. We guarantee you will taste the difference and  seasonal produce available.</p>
+		</div>
+		<div class="band2-box">
+			<p class="heading-band2-box">Think Fresh</p>
+			<p>We think fresh, so all of our healthy and delicious meals are made fresh in our kitchen. We think fresh, so all of our healthy and delicious meals are made fresh in our kitchen.</p>
+		</div>
+		<div class="band2-box">
+			<p class="heading-band2-box">Think Taste</p>
+			<p>Just because your customers eat on the run, doesn’t mean they have to settle for boring and unhealthy fast food. Let them “Think Fresh” and taste the Pic Fresh difference!</p>
+		</div>
+	</div>
+	<img class="fadeInBlock" src="img/choccake2.jpg" width="100%" style="margin-top: 0px;">
+	<div id="band3" class="fadeInBlock">
+	
+		Join our exclusive mailing list &nbsp  <input type="text" placeholder="Name" size="18" style="height: 42px;">&nbsp  <input type="text" placeholder="Email*" size="18" style="height: 42px;">&nbsp 
+        <a href="#">
+        <span class="glyphicon glyphicon-play-circle" style="color:#ff751a"></span>
+        </a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp
+		<a class="my-tool-tip" data-toggle="tool-tip" data-placement="left" title="Connect on Facebook">
+        <i class="fa fa-facebook-square" style="font-size:48px;color:#558000;"></i></a>
+        &nbsp 
+		<a class="my-tool-tip" data-toggle="tool-tip" data-placement="left" title="Connect on Instagram">
+        <i class="fa fa-instagram" style="font-size:48px;color:#558000"></i></a>
+    </div>
+
+
+		
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <p> <a href="../Bryce/tandc.html"> Terms & Conditions </a> &copy; 2016 Wollaston's </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+	$(document).ready(function(){
+		
+		$('#myCarousel1').carousel({
+			interval: 1000 //changes the speed
+		})
+		$('#myCarousel2').carousel({
+			interval: 1300 //changes the speed
+		})
+		$('#myCarousel3').carousel({
+			interval: 1500 //changes the speed
+		})
+	});
+    </script>
+
+</body>
+
+</html>

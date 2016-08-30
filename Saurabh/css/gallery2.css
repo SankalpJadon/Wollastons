@@ -1,0 +1,20 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.cc{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.cc-only{
+	height: 300px;
+	overflow: hidden;
+}
+
+.cc>a:link {
+	color: #404040;
+}

@@ -1,0 +1,21 @@
+#band1{
+	background-color: #ff751a; 
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+#content-band1{
+	margin-left: 150px;
+	margin-top: 0px;
+}
+
+#content-band1 p{
+	color: #ffffff;
+}
+
+#content-band1 #heading{
+	color: #ffd1b3;
+	font-size: 40px;
+	font-style: italic;
+	font-family: "Platino-Italic", Georgia, Serif;
+}

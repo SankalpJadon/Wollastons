@@ -1,0 +1,44 @@
+<section>
+	<div class="selections-final">
+		<p id="final-heading">Review Your Order</p><br/>
+		<table>
+			<tr>
+				<td>Shape: </td><td>{{shape}}</td>
+			</tr>
+			<tr>
+				<td>Size: </td><td>{{size}}  </td>
+			</tr>
+			<tr>
+				<td>Type: </td><td>{{type}}</td>
+			</tr>
+			<tr>
+				<td>Flavour: </td><td>{{flavour}} <td>
+			</tr>
+			<tr>
+				<td>Side:</td><td>{{side}} </td>
+			</tr>
+			<tr>
+				<td>Price:</td><td>$60.00 </td>
+			</tr>
+		</table>
+		<br/>
+		
+		<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+       <input type="hidden" name="cmd" value="_cart">
+       <input type="hidden" name="business" value="saurabh.neu@gmail.com">
+       <input type="hidden" name="lc" value="US">
+       <input type="hidden" name="item_name" value="Cake">
+       <input type="hidden" name="amount" value="60.00">
+       <input type="hidden" name="currency_code" value="USD">
+       <input type="hidden" name="button_subtype" value="products">
+       <input type="hidden" name="no_note" value="0">
+       <input type="hidden" name="add" value="1">
+       <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+       <input type="image" src="http://samedayexpress.ca/wp-content/uploads/2014/04/paynow_button.png" onclick="enableButton()"
+        border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img
+        alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+        width="1" height="1">
+        
+      </form>
+	</div>
+</section>
